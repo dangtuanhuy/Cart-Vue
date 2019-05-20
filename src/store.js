@@ -7,9 +7,9 @@ export default new Vuex.Store({
   state: {
     forSale: [
       { invId: 1, name: 'Angular T-shirt', image: 'https://i.imgur.com/GUX8m9q.jpg', price: 666 },
-      { invId: 2, name: 'Angular T-shirt', image: 'https://i.imgur.com/GUX8m9q.jpg', price: 999 },
-      { invId: 3, name: 'Angular T-shirt', image: 'https://i.imgur.com/GUX8m9q.jpg', price: 966 },
-      { invId: 4, name: 'Angular T-shirt', image: 'https://i.imgur.com/GUX8m9q.jpg', price: 299 },
+      { invId: 2, name: 'Vue T-shirt', image: 'https://i.imgur.com/TriMZO9.jpg', price: 999 },
+      { invId: 3, name: 'React T-shirt', image: 'https://i.imgur.com/Bh7hynu.jpg', price: 966 },
+      { invId: 4, name: 'Aurelia T-shirt', image: 'https://i.imgur.com/PJt6yv8.jpg', price: 299 },
     ],
     inCart: [],
   },
