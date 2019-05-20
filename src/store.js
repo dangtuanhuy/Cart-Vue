@@ -6,10 +6,10 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     forSale: [
-      { invId: 1, name: 'Item 1', image: '//imgur.com/MGFCJEy', price: 666 },
-      { invId: 2, name: 'Item 2', image: '//placehold.it/200', price: 999 },
-      { invId: 3, name: 'Item 3', image: '//placehold.it/200', price: 966 },
-      { invId: 4, name: 'Item 4', image: '//placehold.it/200', price: 299 },
+      { invId: 1, name: 'Angular T-shirt', image: 'https://i.imgur.com/GUX8m9q.jpg', price: 666 },
+      { invId: 2, name: 'Angular T-shirt', image: 'https://i.imgur.com/GUX8m9q.jpg', price: 999 },
+      { invId: 3, name: 'Angular T-shirt', image: 'https://i.imgur.com/GUX8m9q.jpg', price: 966 },
+      { invId: 4, name: 'Angular T-shirt', image: 'https://i.imgur.com/GUX8m9q.jpg', price: 299 },
     ],
     inCart: [],
   },
